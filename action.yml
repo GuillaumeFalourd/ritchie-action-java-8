@@ -1,0 +1,20 @@
+name: 'Ritchie CLI action'
+
+description: 'Execute Ritchie CLI actions'
+
+inputs:
+  rit-repo-url:
+    description: 'Ritchie repository'
+    required: true
+    default: 'https://github.com/ZupIT/ritchie-formulas-demo'
+  rit-formula-command:
+    description: 'Ritchie formula command with input flags'
+    required: true
+    default: 'rit --version'
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.rit-repo-url }}
+    - ${{ inputs.rit-formula-command }}
