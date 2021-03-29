@@ -1,4 +1,4 @@
-# ritchie-actions-python
+# ritchie-actions-java-8
 
 This Github action works for Ritchie CLI formulas implemented in **Java 8**.
 
