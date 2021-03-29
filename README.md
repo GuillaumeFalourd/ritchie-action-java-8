@@ -1,8 +1,8 @@
-# ritchie-actions-java-8
+# ritchie-action-java-8
 
 This Github action works for Ritchie CLI formulas implemented in **Java 8**.
 
-[![Action workflow](https://github.com/GuillaumeFalourd/ritchie-actions-java-8/actions/workflows/main.yml/badge.svg)](https://github.com/GuillaumeFalourd/ritchie-actions-java-8/actions/workflows/main.yml)
+[![Action workflow](https://github.com/GuillaumeFalourd/ritchie-action-java-8/actions/workflows/main.yml/badge.svg)](https://github.com/GuillaumeFalourd/ritchie-action-java-8/actions/workflows/main.yml)
 
 ## Use case
 
@@ -19,7 +19,7 @@ jobs:
     name: Ritchie Action
     steps:
     - name: Run Ritchie Action Command
-      uses: GuillaumeFalourd/ritchie-actions-java-8@v1.0
+      uses: GuillaumeFalourd/ritchie-action-java-8@v1.1
       with:
         rit-repo-url: https://github.com/ZupIT/ritchie-formulas-demo
         rit-formula-command: rit demo coffee-java --rit_name=Dennis --rit_coffee_type=espresso --rit_delivery=false
