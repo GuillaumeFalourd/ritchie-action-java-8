@@ -2,6 +2,8 @@
 
 This Github action works for Ritchie CLI formulas implemented in **Java 8**.
 
+[![Action workflow](https://github.com/GuillaumeFalourd/ritchie-actions-java-8/actions/workflows/main.yml/badge.svg)](https://github.com/GuillaumeFalourd/ritchie-actions-java-8/actions/workflows/main.yml)
+
 ## Use case
 
 ```bash
