@@ -27,5 +27,5 @@ jobs:
 
 **Where:**
 
-- `rit-repo-url` is the Github formula repository url where the formula is located.
+- `rit-repo-url` is the Github formula **public** repository url where the formula is located.
 - `rit-formula-command` is the formula command (with input flags if needed) implemented in java 8.
