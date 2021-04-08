@@ -1,4 +1,4 @@
-# ritchie-action-hava-8
+# ritchie-action-java-8
 
 This Github action works for [Ritchie CLI](https://ritchiecli.io/) formulas implemented in **Java**.
 
