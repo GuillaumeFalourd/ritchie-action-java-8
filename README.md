@@ -1,6 +1,6 @@
-# ritchie-action-python
+# ritchie-action-hava-8
 
-This Github action works for Ritchie CLI formulas implemented in **Java**.
+This Github action works for [Ritchie CLI](https://ritchiecli.io/) formulas implemented in **Java**.
 
 [![Action workflow (PUBLIC)](https://github.com/GuillaumeFalourd/ritchie-action-java-8/actions/workflows/public-repo-demo-workflow.yml/badge.svg)](https://github.com/GuillaumeFalourd/ritchie-action-java-8/actions/workflows/public-repo-demo-workflow.yml)
 
