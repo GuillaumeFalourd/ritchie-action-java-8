@@ -1,6 +1,6 @@
-name: 'Ritchie CLI action'
+name: 'Ritchie CLI action (java 8)'
 
-description: 'Execute Ritchie CLI actions'
+description: 'Execute Ritchie CLI formulas implemented in JAVA 8'
 
 inputs:
   rit-repo-url:
@@ -18,3 +18,7 @@ runs:
   args:
     - ${{ inputs.rit-repo-url }}
     - ${{ inputs.rit-formula-command }}
+
+branding:
+  icon: "settings"
+  color: "orange"
