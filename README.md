@@ -23,7 +23,7 @@ jobs:
     name: Ritchie Action
     steps:
     - name: Run Ritchie Action Command with PUBLIC repository
-      uses: GuillaumeFalourd/ritchie-action-java-8@v2.0
+      uses: GuillaumeFalourd/ritchie-action-java-8@v2.1
       with:
         rit-repo-url: https://github.com/ZupIT/ritchie-formulas-demo
         rit-formula-command: rit demo coffee-java --rit_name=Dennis --rit_coffee_type=espresso --rit_delivery=false
@@ -49,7 +49,7 @@ jobs:
     name: Ritchie Action
     steps:
     - name: Run Ritchie Action Command with PRIVATE repository
-      uses: GuillaumeFalourd/ritchie-action-java-8@v2.0
+      uses: GuillaumeFalourd/ritchie-action-java-8@v2.1
       env:
         CREDENTIAL_GITHUB_USERNAME: ${{ secrets.CREDENTIAL_GITHUB_USERNAME }}
         CREDENTIAL_GITHUB_TOKEN: ${{ secrets.CREDENTIAL_GITHUB_TOKEN }}
