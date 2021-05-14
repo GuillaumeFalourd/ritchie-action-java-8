@@ -1,5 +1,7 @@
 # ritchie-action-java-8
 
+<a href="https://github.com/search?q=GuillaumeFalourd+ritchie-action-java-8+path%3A.github%2Fworkflows+language%3AYAML&type=code" target="_blank" title="Public workflows that use this action."><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fapi-git-master.endbug.vercel.app%2Fapi%2Fgithub-actions%2Fused-by%3Faction%3DGuillaumeFalourd%2Fritchie-action-java-8%26badge%3Dtrue" alt="Public workflows that use this action."></a>
+
 This Github action works for [Ritchie CLI](https://ritchiecli.io/) formulas implemented in **Java**.
 
 [![Action workflow (PUBLIC)](https://github.com/GuillaumeFalourd/ritchie-action-java-8/actions/workflows/public-repo-demo-workflow.yml/badge.svg)](https://github.com/GuillaumeFalourd/ritchie-action-java-8/actions/workflows/public-repo-demo-workflow.yml)
