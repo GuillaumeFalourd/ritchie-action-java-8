@@ -15,7 +15,6 @@ Field | Mandatory | Observation
 **rit-repo-url** | YES | Formula repository URL
 **rit-formula-command** | YES | Formula command with input flags
 
-
 ### Executing a formula from a PUBLIC repository
 
 ```bash
