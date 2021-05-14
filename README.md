@@ -8,7 +8,13 @@ This Github action works for [Ritchie CLI](https://ritchiecli.io/) formulas impl
 
 [![Action workflow (PRIVATE)](https://github.com/GuillaumeFalourd/ritchie-action-java-8/actions/workflows/private-repo-demo-workflow.yml/badge.svg)](https://github.com/GuillaumeFalourd/ritchie-action-java-8/actions/workflows/private-repo-demo-workflow.yml)
 
-## Use cases
+## How to use this action?
+
+Field | Mandatory | Observation
+------------ | ------------  | -------------
+**rit-repo-url** | YES | Formula repository URL
+**rit-formula-command** | YES | Formula command with input flags
+
 
 ### Executing a formula from a PUBLIC repository
 
